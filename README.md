@@ -1,2 +1,6 @@
 # FRAUD-TRANSACTION-DETECTION-SYSTEM
-The Fraud Transaction Detection System is a Python-based application that uses a MySQL database to monitor and analyze financial transactions. The system allows users to add transaction details such as user ID, amount, location, and time, and automatically checks for suspicious activity
+The Fraud Transaction Detection System is a Python-based application that uses a MySQL database to monitor and analyze financial transactions. The system allows users to add transaction details such as user ID, amount, location, and time, and automatically checks for suspicious activity. A simple rule-based approach is used where transactions exceeding a certain amount (e.g., 50,000) are marked as fraudulent. This helps in identifying high-risk transactions quickly and efficiently.
+
+The system also provides various analytical features, including viewing all transactions, filtering only fraudulent transactions, analyzing user transaction history, and identifying top fraud users. Additionally, it performs amount-based and location-based analysis to give deeper insights into fraud patterns. These features make it easier to track unusual behavior and understand how fraud occurs.
+
+Overall, this project demonstrates how Python and database integration can be used to build a basic fraud detection system. While it currently uses simple logic, it can be enhanced in the future by adding machine learning models, real-time alerts, and advanced security features to make it more powerful and reliable.
